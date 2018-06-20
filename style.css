@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  height: 25px;
+}
+form label {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.all-users {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.all-users .user {
+  display: inline-block;
+  margin: 10px;
+}
+
+.all-users .user a {
+  display: block;
+  margin-top: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.all-users .user a:hover {
+  color: #0a6f73;
+}
+
+.all-users .user img {
+  display: block;
+  text-align: center;
+  height: 120px;
+}
